@@ -9,6 +9,9 @@ import { Header } from "../../components/Header";
 import { Pagination } from "../../components/Pagination";
 import { Sidebar } from "../../components/Sidebar";
 
+
+import { jsx } from '@emotion/react';
+
 export default function UserList() {
     return (
         <Box>
