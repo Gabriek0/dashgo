@@ -7,8 +7,7 @@ interface NavLinkProps extends ChakraLinkProps {
     icon: ElementType; // Name/reference of component
     children: string;
     href: string;
-}
-
+};
 
 export function NavLink({ icon, children, href, ...rest }: NavLinkProps) {
     return (
