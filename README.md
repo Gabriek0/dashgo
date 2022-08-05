@@ -1,5 +1,6 @@
 <h1 align="center">Dashgo 📈</h1>
 
+# 🚧 Em desenvolvimento 🏗️ 
 
 ### ✍️ Descrição
 <p align="justify">Interface de Painel Administrativo contendo fluxo de autenticação, dashboard, listagem e cadastro com Chakra UI e Next.js</p>
@@ -33,10 +34,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Gabriek0/world-trip.git
+git clone https://github.com/Gabriek0/dashgo.git
 
 # Mude para o diretório do projeto
-cd https://github.com/Gabriek0/world-trip.git
+cd https://github.com/Gabriek0/dashgo-trip.git
 
 # Instale as dependências
 yarn
@@ -44,8 +45,6 @@ yarn
 # Rode o projeto
 yarn dev
 
-# Rode a API localmente com
-yarn server
 ```
 
 ### 🧑 Autor do Projeto
