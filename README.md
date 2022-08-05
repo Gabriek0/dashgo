@@ -1,6 +1,6 @@
 <h1 align="center">Dashgo 📈</h1>
 
-<center> <h1>🚧 Em desenvolvimento 🏗️</h1> </center> 
+<h1 align="center">🚧 Em desenvolvimento 🏗️</h1>
 
 ### ✍️ Descrição
 <p align="justify">Interface de Painel Administrativo contendo fluxo de autenticação, dashboard, listagem e cadastro com Chakra UI e Next.js</p>
