@@ -1,4 +1,4 @@
-import { createServer, Model, Factory } from "miragejs";
+import { createServer, Model, Factory, Response } from "miragejs";
 import { faker } from "@faker-js/faker";
 
 interface User {
@@ -30,7 +30,7 @@ export default function makeServer() {
     },
 
     seeds(server) {
-      server.createList("user", 10);
+      server.createList("user", 200);
     },
 
     routes() {
@@ -38,7 +38,31 @@ export default function makeServer() {
 
       this.timing = 750;
 
-      this.get("/users");
+      this.get("/users", function (schema, request) {
+        const { page = 1, per_page = 10 } = request.queryParams;
+
+        const total = schema.all("user").length;
+
+        // Page 2:
+        // Start from register 10 to 20
+
+        const pageStart = (Number(page) - 1) * Number(per_page);
+        const pageEnd = pageStart + Number(per_page);
+
+        // serializer transform the data and configure them
+        const users = this.serialize(schema.all("user")).users.slice(
+          pageStart,
+          pageEnd
+        );
+
+        // Metadata of response to create a pagination
+        return new Response(
+          200,
+          { "x-total-count": String(total) }, // Total users
+          { users } // Listing users of page
+        );
+      });
+
       this.post("/users");
 
       this.namespace = "";
