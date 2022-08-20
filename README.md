@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 git clone https://github.com/Gabriek0/dashgo.git
 
 # Mude para o diretório do projeto
-cd https://github.com/Gabriek0/dashgo-trip.git
+cd https://github.com/Gabriek0/dashgo.git
 
 # Instale as dependências
 yarn
