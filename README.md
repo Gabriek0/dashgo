@@ -12,7 +12,7 @@
 <br></br>
 
 ### ✍️ Descrição
-<p align="justify">Interface de Painel Administrativo contendo fluxo de autenticação, dashboard, listagem e cadastro com Chakra UI e Next.js</p>
+<p align="justify">Interface de Painel Administrativo contendo fluxo de autenticação, dashboard, listagem e cadastro com Chakra UI e Next.js. Utilização do React Hook forms para tratar formulários e verificação nos campos juntamente com o Yup, e também, utilizando o React Query para buscar os dados e deixá-los em cache, evitando requisições repetitivas em paginação</p>
 
 
 ### :nut_and_bolt: Tecnologias
