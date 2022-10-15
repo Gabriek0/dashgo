@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Javascript][javascript]
 - [Nextjs][nextjs]
 - [React][reactjs]
-- [React Hookform][react-hookform]
+- [React Hook form][react-hookform]
 - [React Icons][reacticons]
 - [TypeScript][typescript]
 - [Yarn][yarn]
